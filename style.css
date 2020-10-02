@@ -1,0 +1,31 @@
+* {
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    opacity: 90%;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    margin: 16px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+    }
+    .nav-container-parent {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
