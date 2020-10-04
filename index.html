@@ -5,54 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ragereous Software</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94755c5470.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="nav-container-parent">
         <nav class="nav-container">
-            <a href="#home">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#networking">Networking</a>
+            <a href="#about-me-container">About Me</a>
+            <a href="#projects-container">Projects</a>
+            <a href="#networking-container">Networking</a>
         </nav>
     </header>
     <main class="main-container">
-        <section id="about-me">
+        <section id="intro-container">
+            <h1>Trevor "Ragereous" Trammell</h1>
+            <h2>Software Developer</h2>
+            <img id="main-photo" src="Images/alt-placeholder-photo.jpg" alt="main-photo" width="300" height="300"></img>
+        </section>
+        <section id="about-me-container">
             <h2 class="about-me-heading">About Me</h2>
-            <div class="headshot-photo-container">
-                <a class="headshot-photo" href=""></a>
-            </div>
             <h3 class="bio-heading">Bio</h3>
-            <p class="bio-container">My name is Trevor Trammell, but my nickname to most of my friends and on the internet is Ragereous. Currently living in north-east Ohio, I love traveling whenever and wherever I can. I've been a nerd/geek for as long as I could remember, so I figured making a career out of it seemed natural. Bringing passion and dedication to the things I love is a standard, software development being one of them. Whenever I'm not working, you can find me playing a video game, or working on a nerdy endeavor.</p>
+            <div class="bio-container">My name is Trevor Trammell, but my nickname to most of my friends and on the internet is Ragereous. Currently living in north-east Ohio, I love traveling whenever and wherever I can. I've been a nerd/geek for as long as I could remember, so I figured making a career out of it seemed natural. Bringing passion and dedication to the things I love is a standard, software development being one of them. Whenever I'm not working, you can find me playing a video game, or working on a nerdy endeavor.</div>
             <h3 class="tech-stack-heading">Tech Stack</h3>
-            <p>C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub</p>
-            <p>I take pride in being a Full-Stack Developer. I love challenges, and learning a full tech stack gives me that. Being versatile applies to my personal and professional life.</p>
+            <div class="tech-stack-content">C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub</div>
+            <div class="tech-stack-content-2">I take pride in being a Full-Stack Developer. I love challenges, and learning a full tech stack gives me that. Being versatile applies to my personal and professional life.</div>
         </section>
-        <section id="projects">
+        <section id="projects-container">
             <h2 class="projects-heading">Projects</h2>
-            <div class="projects-container">
-                <div>
-                    <a href="https://github.com/Ragereous/Rogue-Simulator-2020">Rogue Simulator 2020</a>
-                    <p>I wrote this simple console app with fun in mind. Displaying mastery in Clean Code, Methods, APIE fundamentals, and Properties.</p>
-                </div>
-                <div>
-                    <a href="https://github.com/2020-Fall-Cohort/m1-car-garage-Ragereous">Car Garage</a>
-                    <p>I wrote this program to establish understanding in Clean Code, TDD, and Methods.</p>
-                </div>
-                <div>
-                    <a href="https://github.com/2020-Fall-Cohort/m1-virtual-pet-team-j2t">Team Project: Virtual Pet</a>
-                    <p>During this team project, we had brought forth the skills of TDD, Pair Programming, Collections (Lists), Methods, and calling multiple Classes.</p>
-                </div>
+            <div class="rogue-simulator-container">
+                <a href="https://github.com/Ragereous/Rogue-Simulator-2020">
+                    <i class="fas fa-scroll fa-5x"></i>
+                </a>
+                Rogue Simulator 2020
+                <div class="rogue-project-content">I wrote this simple console app with fun in mind. Displaying mastery in Clean Code, Methods, APIE fundamentals, and Properties.</div>
             </div>
+            <div class="car-project-container">
+                <a href="https://github.com/Ragereous/Car-Garage">
+                    <i class="fas fa-car fa-5x"></i>
+                </a>
+                Car Garage
+                <div class="car-project-content">I wrote this program to establish understanding in Clean Code, TDD, and Methods.</div>
+            </div>
+            <div class="pet-project-container">
+                <a href="https://github.com/Ragereous/Virtual-Pet-Team-Project">
+                    <i class="fas fa-paw fa-5x"></i>
+                </a>
+                Team Project: Virtual Pet
+            <div class="pet-project-content">During this team project, we had brought forth the skills of TDD, Pair Programming, Collections (Lists), Methods, and calling multiple Classes.</div>
         </section>
-        <section id="networking">
+        <section id="networking-container">
             <h2 class="networking-heading">Networking</h2>
-            <a href="https://www.linkedin.com/in/trevor-trammell-6019b1154/">LinkedIn</a>
-            <a href="https://github.com/Ragereous">GitHub</a>
+            <div class="linkedin-contents">
+                <a href="https://www.linkedin.com/in/trevor-trammell-6019b1154/" target="_blank">
+                    <i class="fab fa-linkedin fa-7x"></i>
+                </a>
+            </div>
+            <div class="phone-contents">
+                <i class="fas fa-phone-square-alt fa-5x"></i>
+                Cell: (330) 604-0707
+            </div>
+            <div class="github-contents">
+                <a href="https://github.com/Ragereous" target="_blank">
+                    <i class="fab fa-github-square fa-7x"></i>
+                </a>
+            </div>
+            <div class="contact-info-contents">
+                <a href="mailto:ragereous@gmail.com">
+                    <i class="fas fa-envelope-square fa-7x"></i>
+                </a>
+            </div>
         </section>
     <footer>
         <div class="footer-copyright">
-            © 2020 Trevor Trammell
+            &copy; 2020 Trevor Trammell
         </div>
     </footer>
     </main>
