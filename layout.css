@@ -22,7 +22,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     padding: 5rem;
-    
 }
 
     .tech-stack-content, .tech-stack-content-2 {
@@ -50,26 +49,31 @@
 
 #networking-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     padding: 5rem;
+    justify-content: center;
 }
 
+    /* #networking-heading {
+        display: flex;
+        justify-content: center;
+    } */
 
-    .linkedin-contents, .github-contents, .contact-info-contents, .phone-contents {
+
+    .linkedin-contents, .github-contents, .contact-info-contents {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .nav-container {
-        display: flex;
-        justify-content: space-around;
-        padding: 1rem;
-    }
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
     
-        .nav-container-parent {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+    .nav-container-parent {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
