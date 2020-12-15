@@ -38,3 +38,62 @@ footer {
     text-align: center;
     opacity: 90%;
 }
+
+#intro-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/Images/keyboard.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 2%;
+    height: 450px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+
+.intro-hr {
+    color: goldenrod;
+    background-color: goldenrod;
+    margin: 5px;
+    margin-top: 8px;
+}
+
+.inner-intro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.inner-intro-text-container {
+    margin-bottom: 1rem;
+    margin-top: 40%;
+    margin-left: 15%;
+    padding: 1rem;
+    height: 70px;
+    width: 300px;
+    color: goldenrod;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.452);
+    border: goldenrod solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main-photo {
+    height: 350px;
+    width: auto;
+    margin-top: 10%;
+    border: solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+    
+    .nav-container-parent {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }

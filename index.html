@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ragereous Software</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="layout.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/94755c5470.js" crossorigin="anonymous"></script>
 </head>
@@ -19,9 +18,14 @@
     </header>
     <main class="main-container">
         <section id="intro-container">
-            <h1>Trevor "Ragereous" Trammell</h1>
-            <h2>Software Developer</h2>
-            <img id="main-photo" src="Images/professional-photo.jpg" alt="main-photo" width="366" height="500"></img>
+            <div class="inner-intro-container">
+                <img id="main-photo" src="Images/professional-headshot-small.jpg" alt="main-photo" width="366" height="500"></img>
+                <div class="inner-intro-text-container">
+                    <h1 class="header-name">Trevor "Ragereous" Trammell</h1>
+                    <hr class="intro-hr">
+                    <h2 class="header-title">Software Developer</h2>
+                </div>
+            </div>
         </section>
         <section id="about-me-container">
             <h2>About Me</h2>
@@ -33,12 +37,11 @@
         </section>
         <section id="projects-container">
             <h2 class="projects-heading">Projects</h2>
-            <div class="rogue-simulator-container">
-                <a href="https://github.com/Ragereous/Rogue-Simulator-2020" target="_blank">
-                    <i class="fas fa-scroll fa-5x"></i>
-                </a>
-                Rogue Simulator 2020
-                <div class="rogue-project-content">I wrote this simple console app with fun in mind. Displaying mastery in Clean Code, Methods, APIE fundamentals, and Properties.</div>
+            <a href="https://github.com/Ragereous/Rogue-Simulator-2020" target="_blank">
+                <i class="fas fa-scroll fa-5x"></i>
+            </a>
+            Rogue Simulator 2020
+            <p>I wrote this simple console app with fun in mind. Displaying mastery in Clean Code, Methods, APIE fundamentals, and Properties.</p>
             </div>
             <div class="car-project-container">
                 <a href="https://github.com/Ragereous/Car-Garage" target="_blank">
