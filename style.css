@@ -149,6 +149,7 @@ footer {
     background-color: lightgray;
     padding: 2rem;
     margin: auto;
+    margin-bottom: 4rem;
     border: goldenrod solid;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -185,4 +186,37 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: goldenrod solid;
     text-align: center;
+}
+
+/* Networking Code */
+
+#networking-container {
+    width: 80%;
+    height: auto;
+    background-color: lightgray;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 4rem;
+    border: goldenrod solid;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-networking-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+.linkedin-contents,
+.github-contents,
+.contact-info-contents {
+    padding: 1rem;
+    background-color:rgb(141, 141, 141);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.networking-heading {
+    padding-bottom: 8px;
 }
