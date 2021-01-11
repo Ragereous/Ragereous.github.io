@@ -10,9 +10,11 @@ body {
 
 html, body {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
+    position:static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 a:link {
@@ -60,7 +62,7 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 2%;
-    height: 450px;
+    height: auto;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 8%;
@@ -75,16 +77,16 @@ footer {
 
 .inner-intro-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .inner-intro-text-container {
-    margin-bottom: 1rem;
-    margin-top: 40%;
-    margin-left: 15%;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
     padding: 1rem;
     height: 70px;
-    width: 300px;
+    width: auto;
     color: goldenrod;
     text-align: center;
     background-color: rgba(211, 211, 211, 0.452);
@@ -93,8 +95,9 @@ footer {
 }
 
 #main-photo {
-    height: 350px;
+    height: 300px;
     width: auto;
+    margin: auto;
     margin-top: 10%;
     border: solid goldenrod;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
