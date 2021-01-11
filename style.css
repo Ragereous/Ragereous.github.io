@@ -19,7 +19,7 @@ a:visited {
 }
 
 a:hover {
-    color: gray;
+    color: rgb(153, 153, 153);
 }
 
 header {
@@ -110,12 +110,11 @@ footer {
 /* About Me Code */
 
 #about-me-container {
-    width: 800px;
+    width: 80%;
     height: auto;
     background-color: lightgray;
     padding: 2rem;
-    margin-left: 15%;
-    margin-bottom: 5%;
+    margin: 8%;
     border: goldenrod solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -134,8 +133,48 @@ footer {
     text-align: center;
 }
 
+/* Projects Code */
+
 #projects-container {
-    width: 800px;
+    width: 80%;
     height: auto;
     background-color: lightgray;
+    padding: 2rem;
+    margin: 8%;
+    border: goldenrod solid;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects-heading {
+    margin-bottom: 12px;
+}
+
+.inner-projects-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.weather-project-container,
+.blog-project-container,
+.rogue-project-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 1rem;
+    background-color: gray;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-link {
+    padding: 1rem;
+}
+
+.project-desc {
+    background-color:rgb(141, 141, 141);
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: goldenrod solid;
+    text-align: ;
 }
