@@ -8,6 +8,13 @@ body {
     background: rgb(141, 141, 141);
 }
 
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
 a:link {
     color: gold;
     background-color: transparent;
@@ -114,7 +121,8 @@ footer {
     height: auto;
     background-color: lightgray;
     padding: 2rem;
-    margin: 8%;
+    margin: auto;
+    margin-bottom: 4rem;
     border: goldenrod solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -140,7 +148,7 @@ footer {
     height: auto;
     background-color: lightgray;
     padding: 2rem;
-    margin: 8%;
+    margin: auto;
     border: goldenrod solid;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -176,5 +184,5 @@ footer {
     margin-top: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: goldenrod solid;
-    text-align: ;
+    text-align: center;
 }
